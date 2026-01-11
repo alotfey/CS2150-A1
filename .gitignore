@@ -24,3 +24,5 @@ TestResults.xml
 .DS_Store
 #Password files
 *.passwords.json
+#C++ Output files
+output/
