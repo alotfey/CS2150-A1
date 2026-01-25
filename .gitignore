@@ -31,7 +31,7 @@ cmake-build-debug/
 # Ignore all hidden files and directories
 .*
 # Allow .gitignore itself to be tracked
-!.gitignore
+.gitignore
 # CMakeLists.txt
 CMakeLists.txt.user
 CMakeLists.txt
