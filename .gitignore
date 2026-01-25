@@ -26,3 +26,13 @@ TestResults.xml
 *.passwords.json
 #C++ Output files
 output/
+# Ignore all cmake debug build directories (any level)
+cmake-build-debug/
+# Ignore all hidden files and directories
+.*
+# Allow .gitignore itself to be tracked
+!.gitignore
+# CMakeLists.txt
+CMakeLists.txt.user
+CMakeLists.txt
+
