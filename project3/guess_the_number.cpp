@@ -36,7 +36,8 @@
 #include <ctime>
 
 using namespace std;
-int main() {
+int main()
+{
     // Seed the random number generator with the current time.
     srand(static_cast<unsigned int>(time(0)));
     int randomNumber = rand() % 100 + 1;
@@ -45,15 +46,22 @@ int main() {
 
     cout << "Guess the number between 1 and 100." << endl;
     cout << "Enter your guess: ";
-    while (userGuess != randomNumber) {
+
+    while (userGuess != randomNumber)
+    {
         cin >> userGuess;
         attempts++;
 
-        if (userGuess < randomNumber) {
+        if (userGuess < randomNumber)
+        {
             cout << "Too low! Try again: ";
-        } else if (userGuess > randomNumber) {
+        }
+        else if (userGuess > randomNumber)
+        {
             cout << "Too high! Try again: ";
-        } else {
+        }
+        else
+        {
             cout << "Congratulations! You have won!" << endl;
             cout << "Total attempts: " << attempts << endl;
         }
