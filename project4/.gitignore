@@ -1,0 +1,12 @@
+# Ignore everything by default
+*
+
+# Keep folders visible so unignore rules can apply recursively
+!*/
+
+# Keep this file
+!.gitignore
+
+# Keep C++ source files
+!*.cpp
+!*.h
